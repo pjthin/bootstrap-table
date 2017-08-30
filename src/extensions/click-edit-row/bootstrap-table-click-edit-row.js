@@ -412,6 +412,7 @@
     };
     
     BootstrapTable.prototype.initToolbar = function () {
+      this.showToolbar = true;
       _initToolbar.apply(this, Array.prototype.slice.apply(arguments));
       
       if (!this.options.clickEdit) {
