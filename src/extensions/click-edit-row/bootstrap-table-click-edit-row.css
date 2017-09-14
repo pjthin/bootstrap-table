@@ -2,3 +2,7 @@ table.no-border > tbody > tr > td,
 table.no-border > tbody > tr {
 	border: none;
 }
+#editable-tooling {
+	width: 70px;
+}
+
