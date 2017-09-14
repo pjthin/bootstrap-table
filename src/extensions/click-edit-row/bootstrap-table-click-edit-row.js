@@ -38,9 +38,9 @@
                   if (options) {
                       $(options).each(function (i, v) {
                         if (v.idxNum === selectedOption) {
-                          $option.clone().attr('selected', 'selected').text(v.idxNum + ' ' + v.name).val(v.idxNum + v.name).appendTo(node);
+                          $option.clone().attr('selected', 'selected').text(v.optLibelle).val(v.optValue).appendTo(node);
                         } else {
-                          $option.clone().text(v.idxNum + ' ' + v.name).val(v.idxNum + v.name).appendTo(node);
+                          $option.clone().text(v.optLibelle).val(v.optValue).appendTo(node);
                         }
                       });
                   } else {
