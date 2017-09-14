@@ -37,7 +37,7 @@
                   var $option = $('<option />');
                   if (options) {
                       $(options).each(function (i, v) {
-                        if (v.idxNum === selectedOption) {
+                        if (v.optLibelle === selectedOption) {
                           $option.clone().attr('selected', 'selected').text(v.optLibelle).val(v.optValue).appendTo(node);
                         } else {
                           $option.clone().text(v.optLibelle).val(v.optValue).appendTo(node);
